@@ -1,0 +1,97 @@
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #000;
+}
+
+.navbar.navbar-inverse {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(103, 55, 16);
+    /* border-color: #917913;*/
+}
+
+/* CONTAINERS */
+
+.container.promo-container {}
+
+.container-fluid.callout-container {
+    height: 100vh;
+    background: url('../images/glass-smoking-banner-brown-drink-still-life-600820-pxhere.com.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.container.quotes-container {
+    background-color: wheat;
+
+}
+
+.container.features-container {
+    background-color: wheat;
+}
+
+.container.tables-container {
+    background-color: wheat;
+}
+
+/* JUMBOTRON*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+.jumbotron .lead {
+    color: #828282;
+    margin: 25px;
+}
+
+.text-muted {
+    color: #f7cdcd;
+    font-style: italic;
+}
+
+/*BLOCK DEVIDERS*/
+
+.block-devider {
+    width: 100px;
+    height: 3px;
+    border: 0;
+    background-color: #d69533;
+}
+
+.oapque-overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .15);
+}
+
+/* BUTTONS */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 18px;
+    width: 180px;
+}
+
+.btn--orange {
+    color: white;
+    background-color: #d69533;
+    border-color: #d69533;
+}

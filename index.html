@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whiskey Drop | Taste a new whiskey every month</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -23,44 +25,50 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Home</a></li>
         <li><a href="">About</a></li>
-        <li class="visible-xs"><a href="">Sign Up</a></li>
-        <!--Ez csak mobilon látszik-->
+        <li class="visible-xs"><a href="">Sign Up</a></li>   <!--Ez csak mobilon látszik-->
       </ul>
 
       <!--Message-->
-      <div class="navbar-header navbar-right hidden-xs">
-        <!--Ez a marketing szöveg és a gomb eltűnik mobilon-->
+      <div class="navbar-header navbar-right hidden-xs">   <!--Ez a marketing szöveg és a gomb eltűnik mobilon-->
         <a href="/Login" class='btn btn-default navbar-btn'>Sign Up</a>
         <p class="navbar-text"><i>Great Whiskey delivered to your door</i></p>
       </div>
     </div>
   </nav>
-  <article class="container">
-    <!--Alert or Promo-->
-    <div class="raw hidden-xs">
-      <div class="col-xs-12">
-        <div class="alert alert-warning">
-          <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+  <!--/.Navbar-->
+
+  <!--Alert / Promo section
+  <div>     <!--ezt az article helyett raktam ide és a végén van a párja, lehet hogy nem kell
+    <div class="container promo-container">
+      <div class="raw hidden-xs">
+        <div class="col-xs-12">
+          <div class="alert alert-warning">
+            <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+          </div>
         </div>
       </div>
     </div>
-    <!--/.Alert or Promo-->
+    /.Alert or Promo-->
 
-    <!-- Callout -->
+  <!-- Callout -->
+  <div class="container-fluid callout-container">
+    <div class="oapque-overly">&nbsp;</div>
     <div class="raw">
       <div class="col-xs-12">
-        <section class="callout jumbotron">
+        <section class="callout jumbotron text-center">
           <h1>The finest whiskeys delivered to your doorstep.</h1>
-          <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">£19.99</s><s class="visible-xs"><br></s><strong><mark>First one is free!</mark></strong></p>
-          <p><button class="btn btn-lg btn-primary">Sign Up!</button></p>
+          <hr class="block-devider">
+          <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">£19.99</s> <s class="visible-xs"><br></s> <strong><mark>First one is free!</mark></strong></p>
+          <p><button class="btn btn-lg btn--cta btn--orange">Sign Up!</button></p>
           <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly!</small></p>
         </section>
       </div>
     </div>
-    <!-- /.callout -->
-    <!--<hr> these are no longer needed since we implemented raws-->
+  </div>
+  <!-- /.callout -->
 
-    <!-- Quotes -->
+  <!-- Quotes -->
+  <div class="container quotes-container">
     <section class="quotes">
       <div class="raw">
         <div class="col-xs-12">
@@ -98,10 +106,11 @@
         </div>
       </div>
     </section>
-    <!-- /.quotes -->
-    <!--<hr> these are no longer needed since we implemented raws-->
+  </div>
+  <!-- /.quotes -->
 
-    <!-- Features -->
+  <!-- Features -->
+  <div class="container features-container">
     <section class="features">
       <div class="raw">
         <div class="col-xs-12">
@@ -134,10 +143,12 @@
         </div>
       </div>
     </section>
-    <!-- /.features -->
-    <!--<hr> these are no longer needed since we implemented raws-->
+  </div>
+  <!-- /.features -->
+  <!--<hr> these are no longer needed since we implemented raws-->
 
-    <!-- Table -->
+  <!-- Table -->
+  <div class="container tables-container">
     <section class="tables">
       <div class="raw">
         <div class="col-xs-12">
@@ -182,8 +193,9 @@
           </tr>
         </tbody>
       </table>
-      <!-- /.Table -->
-  </article>
+  </div>
+  <!-- /.Table -->
+  </div>
 </body>
 
 </html>
